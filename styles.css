@@ -5,11 +5,11 @@
 }
 
 html {
-    height: 130vh;
+    height: 100vh;
 }
 
 body {
-    background-image: url("./imagens/background\ imagem.png");
+    background-image: url("./imagens/background_imagemI.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -22,7 +22,13 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    color: rgb(28, 37, 37);
+    color: rgb(160, 212, 212);
     height: 100%;
     justify-content: center;
+}
+
+.profile {
+    width: 130px;
+    background: linear-gradient(to right,#55ba62, rgb(36, 109, 94));
+    border-radius: 50%;
 }
