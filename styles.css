@@ -6,6 +6,7 @@
 
 html {
     height: 100vh;
+    font-size: 14px;
 }
 
 body {
@@ -27,8 +28,35 @@ body {
     justify-content: center;
 }
 
-.profile {
-    width: 130px;
+.gradient {
     background: linear-gradient(to right,#55ba62, rgb(36, 109, 94));
+}
+
+.profile {
+    width: 130px;    
     border-radius: 50%;
+}
+
+.username {
+    font-weight: 400;
+    font-size: 40px;
+    margin: 16px 0;
+
+}
+
+.description {
+    font-size: 1em;
+    color: azure;
+}
+
+a {
+    color: white;
+    text-decoration: none;   
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-direction: 2em 0;
 }
