@@ -58,5 +58,21 @@ a {
     list-style: none;
     display: flex;
     flex-direction: column;
-    flex-direction: 2em 0;
+    margin: 2em 0;
+    gap: 1.7em
+}
+
+.list-icons {
+    font-size: 1.2em;
+    height: 4em;
+    border-radius: 2em;
+    display: flex;
+}
+
+.link {
+    padding: 0 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
 }
