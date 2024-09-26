@@ -12,7 +12,7 @@ html {
 body {
     background-image: url("./imagens/background_imagemI.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     height: 100%;
     font-family: Ubuntu, sans-serif;
 }
